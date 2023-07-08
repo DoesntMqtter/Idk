@@ -1,0 +1,1704 @@
+----open source----
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	----ScreenGui1----
+	--Frame2--
+	local Frame2 = Instance.new("Frame",ScreenGui1)
+	Frame2["Name"] = "MainFrame"
+	Frame2["Position"] = UDim2.new(0, 384, 0, 48)
+	Frame2["BorderColor3"] = Color3.new(1, 0.439216, 0)
+	Frame2["Size"] = UDim2.new(0, 700, 0, 450)
+	Frame2["BorderSizePixel"] = 5
+	Frame2["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame2----
+	--Script3--
+	local Script3 = Instance.new("Script",Frame2)
+	----Script3----
+	--Script4--
+	local Script4 = Instance.new("Script",Frame2)
+	Script4["Name"] = "Dragify"
+	----Script4----
+	--TextLabel5--
+	local TextLabel5 = Instance.new("TextLabel",Frame2)
+	TextLabel5["TextWrapped"] = true
+	TextLabel5["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel5["Text"] = "Nimbus Hub"
+	TextLabel5["TextSize"] = 14
+	TextLabel5["Font"] = Enum.Font.SourceSansBold
+	TextLabel5["BackgroundTransparency"] = 1
+	TextLabel5["Position"] = UDim2.new(-0.0104106814, 0, 0.00666666776, 0)
+	TextLabel5["TextScaled"] = true
+	TextLabel5["Size"] = UDim2.new(0, 154, 0, 30)
+	TextLabel5["BorderSizePixel"] = 0
+	TextLabel5["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel5----
+	--Frame6--
+	local Frame6 = Instance.new("Frame",Frame2)
+	Frame6["Name"] = "Pages"
+	Frame6["Position"] = UDim2.new(0.236732259, 0, 0.130817667, 0)
+	Frame6["Size"] = UDim2.new(0, 534, 0, 390)
+	Frame6["BorderSizePixel"] = 0
+	Frame6["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame6----
+	--Frame7--
+	local Frame7 = Instance.new("Frame",Frame6)
+	Frame7["Visible"] = false
+	Frame7["Name"] = "Settings"
+	Frame7["Position"] = UDim2.new(0.00321863289, 0, 0.00588582363, 0)
+	Frame7["Size"] = UDim2.new(0, 533, 0, 388)
+	Frame7["BorderSizePixel"] = 0
+	Frame7["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame7----
+	--TextLabel8--
+	local TextLabel8 = Instance.new("TextLabel",Frame7)
+	TextLabel8["TextWrapped"] = true
+	TextLabel8["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel8["Text"] = "Dahood Scripts"
+	TextLabel8["TextSize"] = 14
+	TextLabel8["Font"] = Enum.Font.GothamBold
+	TextLabel8["Name"] = "Page name"
+	TextLabel8["Position"] = UDim2.new(0.322784364, 0, -0.000924198888, 0)
+	TextLabel8["Size"] = UDim2.new(0, 178, 0, 24)
+	TextLabel8["BackgroundTransparency"] = 1
+	TextLabel8["TextScaled"] = true
+	TextLabel8["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel8----
+	--ScrollingFrame9--
+	local ScrollingFrame9 = Instance.new("ScrollingFrame",Frame7)
+	ScrollingFrame9["ScrollBarImageColor3"] = Color3.new(1, 0.439216, 0)
+	ScrollingFrame9["Size"] = UDim2.new(0, 533, 0, 357)
+	ScrollingFrame9["BackgroundTransparency"] = 1
+	ScrollingFrame9["Active"] = true
+	ScrollingFrame9["CanvasSize"] = UDim2.new(0, 0, 1.02999997, 0)
+	ScrollingFrame9["ScrollBarThickness"] = 3
+	ScrollingFrame9["Position"] = UDim2.new(0, 0, 0.0773195848, 0)
+	ScrollingFrame9["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame9----
+	--UIGridLayout10--
+	local UIGridLayout10 = Instance.new("UIGridLayout",ScrollingFrame9)
+	UIGridLayout10["CellSize"] = UDim2.new(0, 525, 0, 45)
+	UIGridLayout10["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIGridLayout10----
+	--TextButton11--
+	local TextButton11 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton11["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton11["Font"] = Enum.Font.SourceSansBold
+	TextButton11["Name"] = "Funky Friday script"
+	TextButton11["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton11["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton11["Text"] = "Funky Friday script"
+	TextButton11["TextSize"] = 30
+	TextButton11["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton11.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/apAUsi97"))();
+	----TextButton11----
+	--UICorner12--
+	local UICorner12 = Instance.new("UICorner",TextButton11)
+	UICorner12["CornerRadius"] = UDim.new(0, 4)
+	----UICorner12----
+	--ImageLabel13--
+	local ImageLabel13 = Instance.new("ImageLabel",TextButton11)
+	ImageLabel13["Image"] = "rbxassetid://10470961022"
+	ImageLabel13["Name"] = "Tap"
+	ImageLabel13["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel13["BackgroundTransparency"] = 1
+	ImageLabel13["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel13----
+	--TextButton14--
+	local TextButton14 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton14["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton14["Font"] = Enum.Font.SourceSansBold
+	TextButton14["Name"] = "Delete tool"
+	TextButton14["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton14["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton14["Text"] = "Delete tool"
+	TextButton14["TextSize"] = 30
+	TextButton14["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton14.MouseButton1Click:Connect(function()
+    --credits to thatsnotmatt#2602
+getgenv().keytoclick = "Delete"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "thatsnotmatt#2602";
+Title = "zzz#0001";
+Duration = 10;
+});
+	----TextButton14----
+	--UICorner15--
+	local UICorner15 = Instance.new("UICorner",TextButton14)
+	UICorner15["CornerRadius"] = UDim.new(0, 4)
+	----UICorner15----
+	--ImageLabel16--
+	local ImageLabel16 = Instance.new("ImageLabel",TextButton14)
+	ImageLabel16["Image"] = "rbxassetid://10470961022"
+	ImageLabel16["Name"] = "Tap"
+	ImageLabel16["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel16["BackgroundTransparency"] = 1
+	ImageLabel16["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel16----
+	--TextButton17--
+	local TextButton17 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton17["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton17["Font"] = Enum.Font.SourceSansBold
+	TextButton17["Name"] = "Dark Hub"
+	TextButton17["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton17["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton17["Text"] = "Dark Hub"
+	TextButton17["TextSize"] = 30
+	TextButton17["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton17.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+	----TextButton17----
+	--UICorner18--
+	local UICorner18 = Instance.new("UICorner",TextButton17)
+	UICorner18["CornerRadius"] = UDim.new(0, 4)
+	----UICorner18----
+	--ImageLabel19--
+	local ImageLabel19 = Instance.new("ImageLabel",TextButton17)
+	ImageLabel19["Image"] = "rbxassetid://10470961022"
+	ImageLabel19["Name"] = "Tap"
+	ImageLabel19["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel19["BackgroundTransparency"] = 1
+	ImageLabel19["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel19----
+	--TextButton20--
+	local TextButton20 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton20["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton20["Font"] = Enum.Font.SourceSansBold
+	TextButton20["Name"] = "Pluto"
+	TextButton20["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton20["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton20["Text"] = "Pluto"
+	TextButton20["TextSize"] = 30
+	TextButton20["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton20.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+	end)
+	----TextButton20----
+	--UICorner21--
+	local UICorner21 = Instance.new("UICorner",TextButton20)
+	UICorner21["CornerRadius"] = UDim.new(0, 4)
+	----UICorner21----
+	--ImageLabel22--
+	local ImageLabel22 = Instance.new("ImageLabel",TextButton20)
+	ImageLabel22["Image"] = "rbxassetid://10470961022"
+	ImageLabel22["Name"] = "Tap"
+	ImageLabel22["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel22["BackgroundTransparency"] = 1
+	ImageLabel22["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel22----
+	--TextButton23--
+	local TextButton23 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton23["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton23["Font"] = Enum.Font.SourceSansBold
+	TextButton23["Name"] = "Nova"
+	TextButton23["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton23["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton23["Text"] = "Nova"
+	TextButton23["TextSize"] = 30
+	TextButton23["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton23.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaGui", true))()
+	end)
+	----TextButton23----
+	--UICorner24--
+	local UICorner24 = Instance.new("UICorner",TextButton23)
+	UICorner24["CornerRadius"] = UDim.new(0, 4)
+	----UICorner24----
+	--ImageLabel25--
+	local ImageLabel25 = Instance.new("ImageLabel",TextButton23)
+	ImageLabel25["Image"] = "rbxassetid://10470961022"
+	ImageLabel25["Name"] = "Tap"
+	ImageLabel25["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel25["BackgroundTransparency"] = 1
+	ImageLabel25["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel25----
+	--TextButton26--
+	local TextButton26 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton26["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton26["Font"] = Enum.Font.SourceSansBold
+	TextButton26["Name"] = "Nyula"
+	TextButton26["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton26["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton26["Text"] = "Nyula"
+	TextButton26["TextSize"] = 30
+	TextButton26["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton26.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+	end)
+	----TextButton26----
+	--UICorner27--
+	local UICorner27 = Instance.new("UICorner",TextButton26)
+	UICorner27["CornerRadius"] = UDim.new(0, 4)
+	----UICorner27----
+	--ImageLabel28--
+	local ImageLabel28 = Instance.new("ImageLabel",TextButton26)
+	ImageLabel28["Image"] = "rbxassetid://10470961022"
+	ImageLabel28["Name"] = "Tap"
+	ImageLabel28["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel28["BackgroundTransparency"] = 1
+	ImageLabel28["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel28----
+	--TextButton29--
+	local TextButton29 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton29["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton29["Font"] = Enum.Font.SourceSansBold
+	TextButton29["Name"] = "Ray X"
+	TextButton29["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton29["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton29["Text"] = "Ray X"
+	TextButton29["TextSize"] = 30
+	TextButton29["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton29.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+	end)
+	----TextButton29----
+	--UICorner30--
+	local UICorner30 = Instance.new("UICorner",TextButton29)
+	UICorner30["CornerRadius"] = UDim.new(0, 4)
+	----UICorner30----
+	--ImageLabel31--
+	local ImageLabel31 = Instance.new("ImageLabel",TextButton29)
+	ImageLabel31["Image"] = "rbxassetid://10470961022"
+	ImageLabel31["Name"] = "Tap"
+	ImageLabel31["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel31["BackgroundTransparency"] = 1
+	ImageLabel31["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel31----
+	--TextButton32--
+	local TextButton32 = Instance.new("TextButton",ScrollingFrame9)
+	TextButton32["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton32["Font"] = Enum.Font.SourceSansBold
+	TextButton32["Name"] = "Agent"
+	TextButton32["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton32["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton32["Text"] = "Agent"
+	TextButton32["TextSize"] = 30
+	TextButton32["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton32.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+	end)
+	----TextButton32----
+	--UICorner33--
+	local UICorner33 = Instance.new("UICorner",TextButton32)
+	UICorner33["CornerRadius"] = UDim.new(0, 4)
+	----UICorner33----
+	--ImageLabel34--
+	local ImageLabel34 = Instance.new("ImageLabel",TextButton32)
+	ImageLabel34["Image"] = "rbxassetid://10470961022"
+	ImageLabel34["Name"] = "Tap"
+	ImageLabel34["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel34["BackgroundTransparency"] = 1
+	ImageLabel34["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel34----
+	--Frame35--
+	local Frame35 = Instance.new("Frame",Frame6)
+	Frame35["Visible"] = false
+	Frame35["Name"] = "Hub"
+	Frame35["Position"] = UDim2.new(0.00230973493, 0, -0.00313540734, 0)
+	Frame35["Size"] = UDim2.new(0, 531, 0, 389)
+	Frame35["BorderSizePixel"] = 0
+	Frame35["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame35----
+	--ScrollingFrame36--
+	local ScrollingFrame36 = Instance.new("ScrollingFrame",Frame35)
+	ScrollingFrame36["ScrollBarImageColor3"] = Color3.new(1, 0.439216, 0)
+	ScrollingFrame36["Active"] = true
+	ScrollingFrame36["ScrollBarThickness"] = 3
+	ScrollingFrame36["Name"] = "Buttons"
+	ScrollingFrame36["Position"] = UDim2.new(0, 0, 0.0796915144, 0)
+	ScrollingFrame36["CanvasSize"] = UDim2.new(0, 0, 2.31999993, 0)
+	ScrollingFrame36["BackgroundTransparency"] = 1
+	ScrollingFrame36["Size"] = UDim2.new(0, 532, 0, 361)
+	ScrollingFrame36["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame36----
+	--UIGridLayout37--
+	local UIGridLayout37 = Instance.new("UIGridLayout",ScrollingFrame36)
+	UIGridLayout37["SortOrder"] = Enum.SortOrder.LayoutOrder
+	UIGridLayout37["CellSize"] = UDim2.new(0, 525, 0, 45)
+	UIGridLayout37["StartCorner"] = Enum.StartCorner.TopRight
+	----UIGridLayout37----
+	--TextButton38--
+	local TextButton38 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton38["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton38["Font"] = Enum.Font.SourceSansBold
+	TextButton38["Name"] = "My Restaurant"
+	TextButton38["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton38["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton38["Text"] = "My Restaurant"
+	TextButton38["TextSize"] = 30
+	TextButton38["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton38.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+	end)
+	----TextButton38----
+	--UICorner39--
+	local UICorner39 = Instance.new("UICorner",TextButton38)
+	UICorner39["CornerRadius"] = UDim.new(0, 4)
+	----UICorner39----
+	--ImageLabel40--
+	local ImageLabel40 = Instance.new("ImageLabel",TextButton38)
+	ImageLabel40["Image"] = "rbxassetid://10470961022"
+	ImageLabel40["Name"] = "Tap"
+	ImageLabel40["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel40["BackgroundTransparency"] = 1
+	ImageLabel40["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel40----
+	--TextButton41--
+	local TextButton41 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton41["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton41["Font"] = Enum.Font.SourceSansBold
+	TextButton41["Name"] = "Pet Simulator X"
+	TextButton41["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton41["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton41["Text"] = "Pet Simulator X "
+	TextButton41["TextSize"] = 30
+	TextButton41["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton41.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+	end)
+	----TextButton41----
+	--UICorner42--
+	local UICorner42 = Instance.new("UICorner",TextButton41)
+	UICorner42["CornerRadius"] = UDim.new(0, 4)
+	----UICorner42----
+	--ImageLabel43--
+	local ImageLabel43 = Instance.new("ImageLabel",TextButton41)
+	ImageLabel43["Image"] = "rbxassetid://10470961022"
+	ImageLabel43["Name"] = "Tap"
+	ImageLabel43["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel43["BackgroundTransparency"] = 1
+	ImageLabel43["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel43----
+	--TextButton44--
+	local TextButton44 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton44["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton44["Font"] = Enum.Font.SourceSansBold
+	TextButton44["Name"] = "Five Duels"
+	TextButton44["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton44["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton44["Text"] = "Five Duels"
+	TextButton44["TextSize"] = 30
+	TextButton44["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton44.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+	end)
+	----TextButton44----
+	--UICorner45--
+	local UICorner45 = Instance.new("UICorner",TextButton44)
+	UICorner45["CornerRadius"] = UDim.new(0, 4)
+	----UICorner45----
+	--ImageLabel46--
+	local ImageLabel46 = Instance.new("ImageLabel",TextButton44)
+	ImageLabel46["Image"] = "rbxassetid://10470961022"
+	ImageLabel46["Name"] = "Tap"
+	ImageLabel46["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel46["BackgroundTransparency"] = 1
+	ImageLabel46["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel46----
+	--TextButton47--
+	local TextButton47 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton47["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton47["Font"] = Enum.Font.SourceSansBold
+	TextButton47["Name"] = "Tower Of Hell"
+	TextButton47["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton47["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton47["Text"] = "Tower Of Hell"
+	TextButton47["TextSize"] = 30
+	TextButton47["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton47.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+	end)
+	----TextButton47----
+	--UICorner48--
+	local UICorner48 = Instance.new("UICorner",TextButton47)
+	UICorner48["CornerRadius"] = UDim.new(0, 4)
+	----UICorner48----
+	--ImageLabel49--
+	local ImageLabel49 = Instance.new("ImageLabel",TextButton47)
+	ImageLabel49["Image"] = "rbxassetid://10470961022"
+	ImageLabel49["Name"] = "Tap"
+	ImageLabel49["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel49["BackgroundTransparency"] = 1
+	ImageLabel49["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel49----
+	--TextButton50--
+	local TextButton50 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton50["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton50["Font"] = Enum.Font.SourceSansBold
+	TextButton50["Name"] = "Drive World"
+	TextButton50["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton50["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton50["Text"] = "Drive World"
+	TextButton50["TextSize"] = 30
+	TextButton50["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton50.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BrickPlayz/Public-Scripts/main/DriveWorld.lua"))()
+	end)
+	----TextButton50----
+	--UICorner51--
+	local UICorner51 = Instance.new("UICorner",TextButton50)
+	UICorner51["CornerRadius"] = UDim.new(0, 4)
+	----UICorner51----
+	--ImageLabel52--
+	local ImageLabel52 = Instance.new("ImageLabel",TextButton50)
+	ImageLabel52["Image"] = "rbxassetid://10470961022"
+	ImageLabel52["Name"] = "Tap"
+	ImageLabel52["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel52["BackgroundTransparency"] = 1
+	ImageLabel52["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel52----
+	--TextButton53--
+	local TextButton53 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton53["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton53["Font"] = Enum.Font.SourceSansBold
+	TextButton53["Name"] = "Evade"
+	TextButton53["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton53["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton53["Text"] = "Evade"
+	TextButton53["TextSize"] = 30
+	TextButton53["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton53.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+	end)
+	----TextButton53----
+	--UICorner54--
+	local UICorner54 = Instance.new("UICorner",TextButton53)
+	UICorner54["CornerRadius"] = UDim.new(0, 4)
+	----UICorner54----
+	--ImageLabel55--
+	local ImageLabel55 = Instance.new("ImageLabel",TextButton53)
+	ImageLabel55["Image"] = "rbxassetid://10470961022"
+	ImageLabel55["Name"] = "Tap"
+	ImageLabel55["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel55["BackgroundTransparency"] = 1
+	ImageLabel55["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel55----
+	--TextButton56--
+	local TextButton56 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton56["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton56["Font"] = Enum.Font.SourceSansBold
+	TextButton56["Name"] = "Nuke Simulator"
+	TextButton56["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton56["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton56["Text"] = "Nuke Simulator"
+	TextButton56["TextSize"] = 30
+	TextButton56["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton56.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/corrupted0331/nuke/main/nuke"))()
+	end)----TextButton56----
+	--UICorner57--
+	local UICorner57 = Instance.new("UICorner",TextButton56)
+	UICorner57["CornerRadius"] = UDim.new(0, 4)
+	----UICorner57----
+	--ImageLabel58--
+	local ImageLabel58 = Instance.new("ImageLabel",TextButton56)
+	ImageLabel58["Image"] = "rbxassetid://10470961022"
+	ImageLabel58["Name"] = "Tap"
+	ImageLabel58["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel58["BackgroundTransparency"] = 1
+	ImageLabel58["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel58----
+	--TextButton59--
+	local TextButton59 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton59["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton59["Font"] = Enum.Font.SourceSansBold
+	TextButton59["Name"] = "Da Hood Modded"
+	TextButton59["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton59["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton59["Text"] = "Da Hood Modded"
+	TextButton59["TextSize"] = 30
+	TextButton59["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton59.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua"), true))()
+	end)
+	----TextButton59----
+	--UICorner60--
+	local UICorner60 = Instance.new("UICorner",TextButton59)
+	UICorner60["CornerRadius"] = UDim.new(0, 4)
+	----UICorner60----
+	--ImageLabel61--
+	local ImageLabel61 = Instance.new("ImageLabel",TextButton59)
+	ImageLabel61["Image"] = "rbxassetid://10470961022"
+	ImageLabel61["Name"] = "Tap"
+	ImageLabel61["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel61["BackgroundTransparency"] = 1
+	ImageLabel61["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel61----
+	--TextButton62--
+	local TextButton62 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton62["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton62["Text"] = "Murder Mystery 2"
+	TextButton62["Font"] = Enum.Font.SourceSansBold
+	TextButton62["Name"] = "Murder Mystery 2"
+	TextButton62["Position"] = UDim2.new(-0.0018796993, 0, -0.00435710838, 0)
+	TextButton62["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton62["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton62["TextSize"] = 30
+	TextButton62["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton62.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+	end)
+	----TextButton62----
+	--UICorner63--
+	local UICorner63 = Instance.new("UICorner",TextButton62)
+	UICorner63["CornerRadius"] = UDim.new(0, 4)
+	----UICorner63----
+	--ImageLabel64--
+	local ImageLabel64 = Instance.new("ImageLabel",TextButton62)
+	ImageLabel64["Image"] = "rbxassetid://10470961022"
+	ImageLabel64["Name"] = "Tap"
+	ImageLabel64["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel64["BackgroundTransparency"] = 1
+	ImageLabel64["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel64----
+	--TextButton65--
+	local TextButton65 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton65["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton65["Font"] = Enum.Font.SourceSansBold
+	TextButton65["Name"] = "Big PaintBall"
+	TextButton65["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton65["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton65["Text"] = "Big PaintBall"
+	TextButton65["TextSize"] = 30
+	TextButton65["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton65.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+	----TextButton65----
+	--UICorner66--
+	local UICorner66 = Instance.new("UICorner",TextButton65)
+	UICorner66["CornerRadius"] = UDim.new(0, 4)
+	----UICorner66----
+	--ImageLabel67--
+	local ImageLabel67 = Instance.new("ImageLabel",TextButton65)
+	ImageLabel67["Image"] = "rbxassetid://10470961022"
+	ImageLabel67["Name"] = "Tap"
+	ImageLabel67["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel67["BackgroundTransparency"] = 1
+	ImageLabel67["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel67----
+	--TextButton68--
+	local TextButton68 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton68["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton68["Font"] = Enum.Font.SourceSansBold
+	TextButton68["Name"] = "Arsenal"
+	TextButton68["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton68["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton68["Text"] = "Arsenal"
+	TextButton68["TextSize"] = 30
+	TextButton68["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton68.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+	end)
+	----TextButton68----
+	--UICorner69--
+	local UICorner69 = Instance.new("UICorner",TextButton68)
+	UICorner69["CornerRadius"] = UDim.new(0, 4)
+	----UICorner69----
+	--ImageLabel70--
+	local ImageLabel70 = Instance.new("ImageLabel",TextButton68)
+	ImageLabel70["Image"] = "rbxassetid://10470961022"
+	ImageLabel70["Name"] = "Tap"
+	ImageLabel70["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel70["BackgroundTransparency"] = 1
+	ImageLabel70["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel70----
+	--TextButton71--
+	local TextButton71 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton71["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton71["Font"] = Enum.Font.SourceSansBold
+	TextButton71["Name"] = "Fart Race"
+	TextButton71["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton71["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton71["Text"] = "Fart Race"
+	TextButton71["TextSize"] = 30
+	TextButton71["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton71.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Fart%20Race.lua"))()
+	end)
+	----TextButton71----
+	--UICorner72--
+	local UICorner72 = Instance.new("UICorner",TextButton71)
+	UICorner72["CornerRadius"] = UDim.new(0, 4)
+	----UICorner72----
+	--ImageLabel73--
+	local ImageLabel73 = Instance.new("ImageLabel",TextButton71)
+	ImageLabel73["Image"] = "rbxassetid://10470961022"
+	ImageLabel73["Name"] = "Tap"
+	ImageLabel73["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel73["BackgroundTransparency"] = 1
+	ImageLabel73["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel73----
+	--TextButton74--
+	local TextButton74 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton74["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton74["Font"] = Enum.Font.SourceSansBold
+	TextButton74["Name"] = "Rainbow Friends"
+	TextButton74["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton74["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton74["Text"] = "Rainbow Friends"
+	TextButton74["TextSize"] = 30
+	TextButton74["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton74.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	----TextButton74----
+	--UICorner75--
+	local UICorner75 = Instance.new("UICorner",TextButton74)
+	UICorner75["CornerRadius"] = UDim.new(0, 4)
+	----UICorner75----
+	--ImageLabel76--
+	local ImageLabel76 = Instance.new("ImageLabel",TextButton74)
+	ImageLabel76["Image"] = "rbxassetid://10470961022"
+	ImageLabel76["Name"] = "Tap"
+	ImageLabel76["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel76["BackgroundTransparency"] = 1
+	ImageLabel76["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel76----
+	--TextButton77--
+	local TextButton77 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton77["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton77["Font"] = Enum.Font.SourceSansBold
+	TextButton77["Name"] = "Yeet A Friend"
+	TextButton77["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton77["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton77["Text"] = "Yeet A Friend "
+	TextButton77["TextSize"] = 30
+	TextButton77["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton77.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Yeet%20A%20Friend.lua"))()
+	end)
+	----TextButton77----
+	--UICorner78--
+	local UICorner78 = Instance.new("UICorner",TextButton77)
+	UICorner78["CornerRadius"] = UDim.new(0, 4)
+	----UICorner78----
+	--ImageLabel79--
+	local ImageLabel79 = Instance.new("ImageLabel",TextButton77)
+	ImageLabel79["Image"] = "rbxassetid://10470961022"
+	ImageLabel79["Name"] = "Tap"
+	ImageLabel79["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel79["BackgroundTransparency"] = 1
+	ImageLabel79["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel79----
+	--TextButton80--
+	local TextButton80 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton80["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton80["Font"] = Enum.Font.SourceSansBold
+	TextButton80["Name"] = "Anime Adventures"
+	TextButton80["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton80["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton80["Text"] = "Anime Adventures"
+	TextButton80["TextSize"] = 30
+	TextButton80["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton80.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures_v2__Beta.lua"))()
+	end)
+	----TextButton80----
+	--UICorner81--
+	local UICorner81 = Instance.new("UICorner",TextButton80)
+	UICorner81["CornerRadius"] = UDim.new(0, 4)
+	----UICorner81----
+	--ImageLabel82--
+	local ImageLabel82 = Instance.new("ImageLabel",TextButton80)
+	ImageLabel82["Image"] = "rbxassetid://10470961022"
+	ImageLabel82["Name"] = "Tap"
+	ImageLabel82["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel82["BackgroundTransparency"] = 1
+	ImageLabel82["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel82----
+	--TextButton83--
+	local TextButton83 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton83["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton83["Font"] = Enum.Font.SourceSansBold
+	TextButton83["Name"] = "BloxFruits"
+	TextButton83["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton83["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton83["Text"] = "BloxFruits"
+	TextButton83["TextSize"] = 30
+	TextButton83["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton83.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+	end)
+	----TextButton83----
+	--UICorner84--
+	local UICorner84 = Instance.new("UICorner",TextButton83)
+	UICorner84["CornerRadius"] = UDim.new(0, 4)
+	----UICorner84----
+	--ImageLabel85--
+	local ImageLabel85 = Instance.new("ImageLabel",TextButton83)
+	ImageLabel85["Image"] = "rbxassetid://10470961022"
+	ImageLabel85["Name"] = "Tap"
+	ImageLabel85["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel85["BackgroundTransparency"] = 1
+	ImageLabel85["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel85----
+	--TextButton86--
+	local TextButton86 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton86["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton86["Font"] = Enum.Font.SourceSansBold
+	TextButton86["Name"] = "Punch A Wall"
+	TextButton86["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton86["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton86["Text"] = "Punch A Wall"
+	TextButton86["TextSize"] = 30
+	TextButton86["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton86.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/Punch%20Wall%20Simulator"))()
+	end)
+	----TextButton86----
+	--UICorner87--
+	local UICorner87 = Instance.new("UICorner",TextButton86)
+	UICorner87["CornerRadius"] = UDim.new(0, 4)
+	----UICorner87----
+	--ImageLabel88--
+	local ImageLabel88 = Instance.new("ImageLabel",TextButton86)
+	ImageLabel88["Image"] = "rbxassetid://10470961022"
+	ImageLabel88["Name"] = "Tap"
+	ImageLabel88["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel88["BackgroundTransparency"] = 1
+	ImageLabel88["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel88----
+	--TextButton89--
+	local TextButton89 = Instance.new("TextButton",ScrollingFrame36)
+	TextButton89["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton89["Font"] = Enum.Font.SourceSansBold
+	TextButton89["Name"] = "Adopt Me"
+	TextButton89["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton89["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton89["Text"] = "Adopt Me"
+	TextButton89["TextSize"] = 30
+	TextButton89["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton89.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+	end)
+	----TextButton89----
+	--UICorner90--
+	local UICorner90 = Instance.new("UICorner",TextButton89)
+	UICorner90["CornerRadius"] = UDim.new(0, 4)
+	----UICorner90----
+	--ImageLabel91--
+	local ImageLabel91 = Instance.new("ImageLabel",TextButton89)
+	ImageLabel91["Image"] = "rbxassetid://10470961022"
+	ImageLabel91["Name"] = "Tap"
+	ImageLabel91["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel91["BackgroundTransparency"] = 1
+	ImageLabel91["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel91----
+	--TextLabel92--
+	local TextLabel92 = Instance.new("TextLabel",Frame35)
+	TextLabel92["TextWrapped"] = true
+	TextLabel92["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel92["Text"] = "Scripts"
+	TextLabel92["BackgroundTransparency"] = 1
+	TextLabel92["TextSize"] = 14
+	TextLabel92["Font"] = Enum.Font.GothamBold
+	TextLabel92["Name"] = "Page name"
+	TextLabel92["Position"] = UDim2.new(0.399763495, 0, -0.000858110376, 0)
+	TextLabel92["Size"] = UDim2.new(0, 94, 0, 24)
+	TextLabel92["TextYAlignment"] = Enum.TextYAlignment.Bottom
+	TextLabel92["TextScaled"] = true
+	TextLabel92["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel92----
+	--Frame93--
+	local Frame93 = Instance.new("Frame",Frame6)
+	Frame93["Name"] = "Home"
+	Frame93["Position"] = UDim2.new(-0.002923792, 0, -0.00106545468, 0)
+	Frame93["Size"] = UDim2.new(0, 535, 0, 391)
+	Frame93["BorderSizePixel"] = 0
+	Frame93["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame93----
+	--TextLabel94--
+	local TextLabel94 = Instance.new("TextLabel",Frame93)
+	TextLabel94["TextWrapped"] = true
+	TextLabel94["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel94["Text"] = "Home"
+	TextLabel94["TextSize"] = 14
+	TextLabel94["Font"] = Enum.Font.GothamBold
+	TextLabel94["Name"] = "Page name"
+	TextLabel94["Position"] = UDim2.new(0.41471678, 0, 0.0119624026, 0)
+	TextLabel94["Size"] = UDim2.new(0, 94, 0, 24)
+	TextLabel94["BackgroundTransparency"] = 1
+	TextLabel94["TextScaled"] = true
+	TextLabel94["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel94----
+	--TextLabel95--
+	local TextLabel95 = Instance.new("TextLabel",Frame93)
+	TextLabel95["TextWrapped"] = true
+	TextLabel95["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel95["Text"] = "Nimbus Hub"
+	TextLabel95["TextSize"] = 14
+	TextLabel95["Font"] = Enum.Font.SourceSansBold
+	TextLabel95["Name"] = "Name"
+	TextLabel95["Position"] = UDim2.new(0.427863687, 0, 0.161125332, 0)
+	TextLabel95["Size"] = UDim2.new(0, 239, 0, 56)
+	TextLabel95["BackgroundTransparency"] = 1
+	TextLabel95["TextScaled"] = true
+	TextLabel95["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel95----
+	--ImageLabel96--
+	local ImageLabel96 = Instance.new("ImageLabel",Frame93)
+	ImageLabel96["Image"] = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	ImageLabel96["Name"] = "player"
+	ImageLabel96["Position"] = UDim2.new(0.162220746, 0, 0.498721242, 0)
+	ImageLabel96["Size"] = UDim2.new(0, 100, 0, 100)
+	ImageLabel96["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----ImageLabel96----
+	--UICorner97--
+	local UICorner97 = Instance.new("UICorner",ImageLabel96)
+	UICorner97["CornerRadius"] = UDim.new(50, 50)
+	----UICorner97----
+	--Script98--
+	local Script98 = Instance.new("Script",ImageLabel96)
+	----Script98----
+	--TextLabel99--
+	local TextLabel99 = Instance.new("TextLabel",Frame93)
+	TextLabel99["TextWrapped"] = true
+	TextLabel99["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel99["Text"] = "Payer name"
+	TextLabel99["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel99["Font"] = Enum.Font.SourceSansBold
+	TextLabel99["BackgroundTransparency"] = 1
+	TextLabel99["Position"] = UDim2.new(0.368415385, 0, 0.598465502, 0)
+	TextLabel99["TextSize"] = 14
+	TextLabel99["Size"] = UDim2.new(0, 319, 0, 22)
+	TextLabel99["TextScaled"] = true
+	TextLabel99["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel99----
+	--Script100--
+	local Script100 = Instance.new("Script",TextLabel99)
+	----Script100----
+	--ImageLabel101--
+	local ImageLabel101 = Instance.new("ImageLabel",Frame93)
+	ImageLabel101["Image"] = "http://www.roblox.com/asset/?id=13746832915"
+	ImageLabel101["BackgroundTransparency"] = 1
+	ImageLabel101["Position"] = UDim2.new(0.143643826, 0, 0.0767263398, 0)
+	ImageLabel101["Size"] = UDim2.new(0, 121, 0, 124)
+	ImageLabel101["Name"] = "Icon"
+	ImageLabel101["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageLabel101----
+	--TextButton102--
+	local TextButton102 = Instance.new("TextButton",Frame93)
+	TextButton102["Font"] = Enum.Font.SourceSansBold
+	TextButton102["Size"] = UDim2.new(0, 200, 0, 36)
+	TextButton102["Position"] = UDim2.new(0.0706319734, 0, 0.833759606, 0)
+	TextButton102["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton102["Text"] = "Nimbus Hub Discord"
+	TextButton102["TextSize"] = 23
+	TextButton102["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton102.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Copied!"; Text = "paste into browser!"; Icon = ""; })
+		wait(0.5)
+		setclipboard("https://discord.gg/9pgKnAC8Bp")
+	end)
+	----TextButton102----
+	--UICorner103--
+	local UICorner103 = Instance.new("UICorner",TextButton102)
+	UICorner103["CornerRadius"] = UDim.new(0, 4)
+	----UICorner103----
+	--TextButton104--
+	local TextButton104 = Instance.new("TextButton",Frame93)
+	TextButton104["Font"] = Enum.Font.SourceSansBold
+	TextButton104["Size"] = UDim2.new(0, 200, 0, 36)
+	TextButton104["Position"] = UDim2.new(0.550185859, 0, 0.833759606, 0)
+	TextButton104["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton104["Text"] = "Destroy UI"
+	TextButton104["TextSize"] = 23
+	TextButton104["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	----TextButton104----
+	--UICorner105--
+	local UICorner105 = Instance.new("UICorner",TextButton104)
+	UICorner105["CornerRadius"] = UDim.new(0, 4)
+	----UICorner105----
+	--Script106--
+	local Script106 = Instance.new("Script",TextButton104)
+	----Script106----
+	--Frame107--
+	local Frame107 = Instance.new("Frame",Frame6)
+	Frame107["Visible"] = false
+	Frame107["Name"] = "Exe"
+	Frame107["Position"] = UDim2.new(-0.00239934446, 0, 0.000757619739, 0)
+	Frame107["Size"] = UDim2.new(0, 535, 0, 390)
+	Frame107["BorderSizePixel"] = 0
+	Frame107["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame107----
+	--TextLabel108--
+	local TextLabel108 = Instance.new("TextLabel",Frame107)
+	TextLabel108["TextWrapped"] = true
+	TextLabel108["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel108["Text"] = "Misc"
+	TextLabel108["BackgroundTransparency"] = 1
+	TextLabel108["TextSize"] = 14
+	TextLabel108["Font"] = Enum.Font.GothamBold
+	TextLabel108["Name"] = "Page name"
+	TextLabel108["Position"] = UDim2.new(0.399763495, 0, -0.000858110376, 0)
+	TextLabel108["Size"] = UDim2.new(0, 94, 0, 24)
+	TextLabel108["TextYAlignment"] = Enum.TextYAlignment.Bottom
+	TextLabel108["TextScaled"] = true
+	TextLabel108["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel108----
+	--ScrollingFrame109--
+	local ScrollingFrame109 = Instance.new("ScrollingFrame",Frame107)
+	ScrollingFrame109["ScrollBarImageColor3"] = Color3.new(1, 0.439216, 0)
+	ScrollingFrame109["Active"] = true
+	ScrollingFrame109["BorderColor3"] = Color3.new(1, 0.439216, 0)
+	ScrollingFrame109["ScrollBarThickness"] = 3
+	ScrollingFrame109["ScrollingDirection"] = Enum.ScrollingDirection.Y
+	ScrollingFrame109["ScrollBarImageTransparency"] = 1
+	ScrollingFrame109["ElasticBehavior"] = Enum.ElasticBehavior.Never
+	ScrollingFrame109["CanvasSize"] = UDim2.new(0, 0, 1.29999995, 0)
+	ScrollingFrame109["Name"] = "Buttons"
+	ScrollingFrame109["Position"] = UDim2.new(0.00186915894, 0, 0.0743589774, 0)
+	ScrollingFrame109["Size"] = UDim2.new(0, 533, 0, 356)
+	ScrollingFrame109["BackgroundTransparency"] = 1
+	ScrollingFrame109["BorderSizePixel"] = 0
+	ScrollingFrame109["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	----ScrollingFrame109----
+	--TextButton110--
+	local TextButton110 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton110["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton110["Font"] = Enum.Font.SourceSansBold
+	TextButton110["Name"] = "Admin Commands"
+	TextButton110["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton110["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton110["Text"] = "Admin Commands"
+	TextButton110["TextSize"] = 30
+	TextButton110["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton110.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	----TextButton110----
+	--UICorner111--
+	local UICorner111 = Instance.new("UICorner",TextButton110)
+	UICorner111["CornerRadius"] = UDim.new(0, 4)
+	----UICorner111----
+	--ImageLabel112--
+	local ImageLabel112 = Instance.new("ImageLabel",TextButton110)
+	ImageLabel112["Image"] = "rbxassetid://10470961022"
+	ImageLabel112["Name"] = "Tap"
+	ImageLabel112["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel112["BackgroundTransparency"] = 1
+	ImageLabel112["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel112----
+	--UIGridLayout113--
+	local UIGridLayout113 = Instance.new("UIGridLayout",ScrollingFrame109)
+	UIGridLayout113["SortOrder"] = Enum.SortOrder.LayoutOrder
+	UIGridLayout113["CellSize"] = UDim2.new(0, 525, 0, 45)
+	UIGridLayout113["StartCorner"] = Enum.StartCorner.TopRight
+	----UIGridLayout113----
+	--TextButton114--
+	local TextButton114 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton114["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton114["Font"] = Enum.Font.SourceSansBold
+	TextButton114["Name"] = "Anti AFk"
+	TextButton114["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton114["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton114["Text"] = "Anti AFk"
+	TextButton114["TextSize"] = 30
+	TextButton114["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton114.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()
+	end)
+	----TextButton114----
+	--UICorner115--
+	local UICorner115 = Instance.new("UICorner",TextButton114)
+	UICorner115["CornerRadius"] = UDim.new(0, 4)
+	----UICorner115----
+	--ImageLabel116--
+	local ImageLabel116 = Instance.new("ImageLabel",TextButton114)
+	ImageLabel116["Image"] = "rbxassetid://10470961022"
+	ImageLabel116["Name"] = "Tap"
+	ImageLabel116["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel116["BackgroundTransparency"] = 1
+	ImageLabel116["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel116----
+	--TextButton117--
+	local TextButton117 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton117["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton117["Font"] = Enum.Font.SourceSansBold
+	TextButton117["Name"] = "Auto Piano"
+	TextButton117["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton117["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton117["Text"] = "Auto Piano"
+	TextButton117["TextSize"] = 30
+	TextButton117["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton117.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+	end)
+	----TextButton117----
+	--UICorner118--
+	local UICorner118 = Instance.new("UICorner",TextButton117)
+	UICorner118["CornerRadius"] = UDim.new(0, 4)
+	----UICorner118----
+	--ImageLabel119--
+	local ImageLabel119 = Instance.new("ImageLabel",TextButton117)
+	ImageLabel119["Image"] = "rbxassetid://10470961022"
+	ImageLabel119["Name"] = "Tap"
+	ImageLabel119["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel119["BackgroundTransparency"] = 1
+	ImageLabel119["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel119----
+	--TextButton120--
+	local TextButton120 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton120["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton120["Font"] = Enum.Font.SourceSansBold
+	TextButton120["Name"] = "Auto Clicker"
+	TextButton120["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton120["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton120["Text"] = "Auto Clicker"
+	TextButton120["TextSize"] = 30
+	TextButton120["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton120.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/auto-clicker/main/README.md"), true))()
+	end)
+	----TextButton120----
+	--UICorner121--
+	local UICorner121 = Instance.new("UICorner",TextButton120)
+	UICorner121["CornerRadius"] = UDim.new(0, 4)
+	----UICorner121----
+	--ImageLabel122--
+	local ImageLabel122 = Instance.new("ImageLabel",TextButton120)
+	ImageLabel122["Image"] = "rbxassetid://10470961022"
+	ImageLabel122["Name"] = "Tap"
+	ImageLabel122["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel122["BackgroundTransparency"] = 1
+	ImageLabel122["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel122----
+	--TextButton123--
+	local TextButton123 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton123["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton123["Font"] = Enum.Font.SourceSansBold
+	TextButton123["Name"] = "CFrame"
+	TextButton123["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton123["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton123["Text"] = "CFrame"
+	TextButton123["TextSize"] = 30
+	TextButton123["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton123.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/speed/main/speed"), true))()
+	end)
+	----TextButton123----
+	--UICorner124--
+	local UICorner124 = Instance.new("UICorner",TextButton123)
+	UICorner124["CornerRadius"] = UDim.new(0, 4)
+	----UICorner124----
+	--ImageLabel125--
+	local ImageLabel125 = Instance.new("ImageLabel",TextButton123)
+	ImageLabel125["Image"] = "rbxassetid://10470961022"
+	ImageLabel125["Name"] = "Tap"
+	ImageLabel125["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel125["BackgroundTransparency"] = 1
+	ImageLabel125["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel125----
+	--TextButton126--
+	local TextButton126 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton126["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton126["Font"] = Enum.Font.SourceSansBold
+	TextButton126["Name"] = "Rejoin"
+	TextButton126["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton126["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton126["Text"] = "Rejoin"
+	TextButton126["TextSize"] = 30
+	TextButton126["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton126.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/rejoin/main/README.md"), true))()
+	end)
+	----TextButton126----
+	--UICorner127--
+	local UICorner127 = Instance.new("UICorner",TextButton126)
+	UICorner127["CornerRadius"] = UDim.new(0, 4)
+	----UICorner127----
+	--ImageLabel128--
+	local ImageLabel128 = Instance.new("ImageLabel",TextButton126)
+	ImageLabel128["Image"] = "rbxassetid://10470961022"
+	ImageLabel128["Name"] = "Tap"
+	ImageLabel128["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel128["BackgroundTransparency"] = 1
+	ImageLabel128["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel128----
+	--TextButton129--
+	local TextButton129 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton129["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton129["Font"] = Enum.Font.SourceSansBold
+	TextButton129["Name"] = "Q Tool"
+	TextButton129["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton129["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton129["Text"] = "Q Tool"
+	TextButton129["TextSize"] = 30
+	TextButton129["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton129.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/Q-tool/main/README.md"), true))()
+	end)
+	----TextButton129----
+	--UICorner130--
+	local UICorner130 = Instance.new("UICorner",TextButton129)
+	UICorner130["CornerRadius"] = UDim.new(0, 4)
+	----UICorner130----
+	--ImageLabel131--
+	local ImageLabel131 = Instance.new("ImageLabel",TextButton129)
+	ImageLabel131["Image"] = "rbxassetid://10470961022"
+	ImageLabel131["Name"] = "Tap"
+	ImageLabel131["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel131["BackgroundTransparency"] = 1
+	ImageLabel131["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel131----
+	--TextButton132--
+	local TextButton132 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton132["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton132["Font"] = Enum.Font.SourceSansBold
+	TextButton132["Name"] = "Dahood Fly"
+	TextButton132["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton132["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton132["Text"] = "Dahood Fly"
+	TextButton132["TextSize"] = 30
+	TextButton132["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton132.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/gJfKgLra"))();
+	end)
+	----TextButton132----
+	--UICorner133--
+	local UICorner133 = Instance.new("UICorner",TextButton132)
+	UICorner133["CornerRadius"] = UDim.new(0, 4)
+	----UICorner133----
+	--ImageLabel134--
+	local ImageLabel134 = Instance.new("ImageLabel",TextButton132)
+	ImageLabel134["Image"] = "rbxassetid://10470961022"
+	ImageLabel134["Name"] = "Tap"
+	ImageLabel134["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel134["BackgroundTransparency"] = 1
+	ImageLabel134["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel134----
+	--TextButton135--
+	local TextButton135 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton135["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton135["Font"] = Enum.Font.SourceSansBold
+	TextButton135["Name"] = "KeyBoard"
+	TextButton135["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton135["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton135["Text"] = "KeyBoard"
+	TextButton135["TextSize"] = 30
+	TextButton135["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton135.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end)
+	----TextButton135----
+	--UICorner136--
+	local UICorner136 = Instance.new("UICorner",TextButton135)
+	UICorner136["CornerRadius"] = UDim.new(0, 4)
+	----UICorner136----
+	--ImageLabel137--
+	local ImageLabel137 = Instance.new("ImageLabel",TextButton135)
+	ImageLabel137["Image"] = "rbxassetid://10470961022"
+	ImageLabel137["Name"] = "Tap"
+	ImageLabel137["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel137["BackgroundTransparency"] = 1
+	ImageLabel137["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel137----
+	--TextButton138--
+	local TextButton138 = Instance.new("TextButton",ScrollingFrame109)
+	TextButton138["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton138["Font"] = Enum.Font.SourceSansBold
+	TextButton138["Name"] = "Fly"
+	TextButton138["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton138["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton138["Text"] = "Fly"
+	TextButton138["TextSize"] = 30
+	TextButton138["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton138.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/mobilefly/main/mobile-fly"), true))()
+	end)
+	----TextButton138----
+	--UICorner139--
+	local UICorner139 = Instance.new("UICorner",TextButton138)
+	UICorner139["CornerRadius"] = UDim.new(0, 4)
+	----UICorner139----
+	--ImageLabel140--
+	local ImageLabel140 = Instance.new("ImageLabel",TextButton138)
+	ImageLabel140["Image"] = "rbxassetid://10470961022"
+	ImageLabel140["Name"] = "Tap"
+	ImageLabel140["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel140["BackgroundTransparency"] = 1
+	ImageLabel140["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel140----
+	--Frame141--
+	local Frame141 = Instance.new("Frame",Frame6)
+	Frame141["Visible"] = false
+	Frame141["Name"] = "Credits"
+	Frame141["Position"] = UDim2.new(0.00509129232, 0, -0.00180648407, 0)
+	Frame141["Size"] = UDim2.new(0, 532, 0, 388)
+	Frame141["BorderSizePixel"] = 0
+	Frame141["BackgroundColor3"] = Color3.new(0.105882, 0.105882, 0.105882)
+	----Frame141----
+	--TextLabel142--
+	local TextLabel142 = Instance.new("TextLabel",Frame141)
+	TextLabel142["TextWrapped"] = true
+	TextLabel142["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel142["Text"] = "Dahood Locks"
+	TextLabel142["TextSize"] = 14
+	TextLabel142["Font"] = Enum.Font.GothamBold
+	TextLabel142["Name"] = "Page name"
+	TextLabel142["Position"] = UDim2.new(0.322784364, 0, -0.000924198888, 0)
+	TextLabel142["Size"] = UDim2.new(0, 178, 0, 24)
+	TextLabel142["BackgroundTransparency"] = 1
+	TextLabel142["TextScaled"] = true
+	TextLabel142["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel142----
+	--ScrollingFrame143--
+	local ScrollingFrame143 = Instance.new("ScrollingFrame",Frame141)
+	ScrollingFrame143["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame143["Size"] = UDim2.new(0, 531, 0, 360)
+	ScrollingFrame143["BackgroundTransparency"] = 1
+	ScrollingFrame143["Active"] = true
+	ScrollingFrame143["CanvasSize"] = UDim2.new(0, 0, 0, 0)
+	ScrollingFrame143["ScrollBarThickness"] = 3
+	ScrollingFrame143["Position"] = UDim2.new(-0.0018796993, 0, 0.0721649453, 0)
+	ScrollingFrame143["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame143----
+	--UIGridLayout144--
+	local UIGridLayout144 = Instance.new("UIGridLayout",ScrollingFrame143)
+	UIGridLayout144["CellSize"] = UDim2.new(0, 525, 0, 45)
+	UIGridLayout144["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIGridLayout144----
+	--TextButton145--
+	local TextButton145 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton145["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton145["Font"] = Enum.Font.SourceSansBold
+	TextButton145["Name"] = "Purple Bubble Lock"
+	TextButton145["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton145["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton145["Text"] = "Purple Bubble Lock"
+	TextButton145["TextSize"] = 30
+	TextButton145["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton145.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
+	end)
+	----TextButton145----
+	--UICorner146--
+	local UICorner146 = Instance.new("UICorner",TextButton145)
+	UICorner146["CornerRadius"] = UDim.new(0, 4)
+	----UICorner146----
+	--ImageLabel147--
+	local ImageLabel147 = Instance.new("ImageLabel",TextButton145)
+	ImageLabel147["Image"] = "rbxassetid://10470961022"
+	ImageLabel147["Name"] = "Tap"
+	ImageLabel147["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel147["BackgroundTransparency"] = 1
+	ImageLabel147["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel147----
+	--TextButton148--
+	local TextButton148 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton148["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton148["Font"] = Enum.Font.SourceSansBold
+	TextButton148["Name"] = "Blue Bubble Lock"
+	TextButton148["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton148["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton148["Text"] = "Blue Bubble Lock"
+	TextButton148["TextSize"] = 30
+	TextButton148["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton148.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/MOON-GOD-SCRIPTS/main/Ryzzchips%20tool"))();
+	end)
+	----TextButton148----
+	--UICorner149--
+	local UICorner149 = Instance.new("UICorner",TextButton148)
+	UICorner149["CornerRadius"] = UDim.new(0, 4)
+	----UICorner149----
+	--ImageLabel150--
+	local ImageLabel150 = Instance.new("ImageLabel",TextButton148)
+	ImageLabel150["Image"] = "rbxassetid://10470961022"
+	ImageLabel150["Name"] = "Tap"
+	ImageLabel150["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel150["BackgroundTransparency"] = 1
+	ImageLabel150["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel150----
+	--TextButton151--
+	local TextButton151 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton151["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton151["Font"] = Enum.Font.SourceSansBold
+	TextButton151["Name"] = "Mobile CamLock"
+	TextButton151["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton151["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton151["Text"] = "Mobile CamLock"
+	TextButton151["TextSize"] = 30
+	TextButton151["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton151.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/mobile/main/camlock"), true))()
+	end)
+	----TextButton151----
+	--UICorner152--
+	local UICorner152 = Instance.new("UICorner",TextButton151)
+	UICorner152["CornerRadius"] = UDim.new(0, 4)
+	----UICorner152----
+	--ImageLabel153--
+	local ImageLabel153 = Instance.new("ImageLabel",TextButton151)
+	ImageLabel153["Image"] = "rbxassetid://10470961022"
+	ImageLabel153["Name"] = "Tap"
+	ImageLabel153["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel153["BackgroundTransparency"] = 1
+	ImageLabel153["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel153----
+	--TextButton154--
+	local TextButton154 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton154["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton154["Font"] = Enum.Font.SourceSansBold
+	TextButton154["Name"] = "Pc CamLock"
+	TextButton154["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton154["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton154["Text"] = "Pc CamLock"
+	TextButton154["TextSize"] = 30
+	TextButton154["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton154.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/camlock/main/camlock"), true))()
+	end)
+	----TextButton154----
+	--UICorner155--
+	local UICorner155 = Instance.new("UICorner",TextButton154)
+	UICorner155["CornerRadius"] = UDim.new(0, 4)
+	----UICorner155----
+	--ImageLabel156--
+	local ImageLabel156 = Instance.new("ImageLabel",TextButton154)
+	ImageLabel156["Image"] = "rbxassetid://10470961022"
+	ImageLabel156["Name"] = "Tap"
+	ImageLabel156["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel156["BackgroundTransparency"] = 1
+	ImageLabel156["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel156----
+	--TextButton157--
+	local TextButton157 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton157["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton157["Font"] = Enum.Font.SourceSansBold
+	TextButton157["Name"] = "Mobile Anti-Lock"
+	TextButton157["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton157["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton157["Text"] = "Mobile Anti-Lock"
+	TextButton157["TextSize"] = 30
+	TextButton157["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton157.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+	end)
+	----TextButton157----
+	--UICorner158--
+	local UICorner158 = Instance.new("UICorner",TextButton157)
+	UICorner158["CornerRadius"] = UDim.new(0, 4)
+	----UICorner158----
+	--ImageLabel159--
+	local ImageLabel159 = Instance.new("ImageLabel",TextButton157)
+	ImageLabel159["Image"] = "rbxassetid://10470961022"
+	ImageLabel159["Name"] = "Tap"
+	ImageLabel159["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel159["BackgroundTransparency"] = 1
+	ImageLabel159["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel159----
+	--TextButton160--
+	local TextButton160 = Instance.new("TextButton",ScrollingFrame143)
+	TextButton160["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton160["Font"] = Enum.Font.SourceSansBold
+	TextButton160["Name"] = "Pc Anti-Lock"
+	TextButton160["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton160["Size"] = UDim2.new(0, 525, 0, 43)
+	TextButton160["Text"] = "Pc Anti-Lock"
+	TextButton160["TextSize"] = 30
+	TextButton160["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	TextButton160.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/anti-lock/main/anti-lock"), true))()
+	end)
+	----TextButton160----
+	--UICorner161--
+	local UICorner161 = Instance.new("UICorner",TextButton160)
+	UICorner161["CornerRadius"] = UDim.new(0, 4)
+	----UICorner161----
+	--ImageLabel162--
+	local ImageLabel162 = Instance.new("ImageLabel",TextButton160)
+	ImageLabel162["Image"] = "rbxassetid://10470961022"
+	ImageLabel162["Name"] = "Tap"
+	ImageLabel162["Position"] = UDim2.new(0.925714314, 0, 0.155555561, 0)
+	ImageLabel162["BackgroundTransparency"] = 1
+	ImageLabel162["Size"] = UDim2.new(0, 30, 0, 30)
+	----ImageLabel162----
+	--Frame163--
+	local Frame163 = Instance.new("Frame",Frame2)
+	Frame163["Name"] = "Buttons"
+	Frame163["Position"] = UDim2.new(0.00199994771, 0, 0.0730000138, 0)
+	Frame163["Size"] = UDim2.new(0, 160, 0, 241)
+	Frame163["BorderSizePixel"] = 0
+	Frame163["BackgroundColor3"] = Color3.new(0.0980392, 0.0980392, 0.0980392)
+	----Frame163----
+	--TextButton164--
+	local TextButton164 = Instance.new("TextButton",Frame163)
+	TextButton164["TextWrapped"] = true
+	TextButton164["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton164["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton164["Text"] = "Dahood Locks"
+	TextButton164["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton164["Font"] = Enum.Font.Cartoon
+	TextButton164["Name"] = "Credits"
+	TextButton164["Position"] = UDim2.new(-0.00193881942, 0, 0.797781289, 0)
+	TextButton164["BackgroundTransparency"] = 1
+	TextButton164["Size"] = UDim2.new(0, 160, 0, 48)
+	TextButton164["TextSize"] = 20
+	TextButton164["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	----TextButton164----
+	--TextButton165--
+	local TextButton165 = Instance.new("TextButton",Frame163)
+	TextButton165["TextWrapped"] = true
+	TextButton165["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton165["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton165["Text"] = "Misc"
+	TextButton165["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton165["Font"] = Enum.Font.Cartoon
+	TextButton165["Name"] = "EXE"
+	TextButton165["Position"] = UDim2.new(-0.00316333724, 0, 0.198785305, 0)
+	TextButton165["BackgroundTransparency"] = 1
+	TextButton165["Size"] = UDim2.new(0, 160, 0, 48)
+	TextButton165["TextSize"] = 20
+	TextButton165["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	----TextButton165----
+	--TextButton166--
+	local TextButton166 = Instance.new("TextButton",Frame163)
+	TextButton166["TextWrapped"] = true
+	TextButton166["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton166["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton166["Text"] = "Home"
+	TextButton166["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton166["Font"] = Enum.Font.Cartoon
+	TextButton166["Name"] = "Home"
+	TextButton166["Position"] = UDim2.new(-0.00365066528, 0, -6.33144808e-08, 0)
+	TextButton166["BackgroundTransparency"] = 1
+	TextButton166["Size"] = UDim2.new(0, 160, 0, 48)
+	TextButton166["TextSize"] = 20
+	TextButton166["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	----TextButton166----
+	--TextButton167--
+	local TextButton167 = Instance.new("TextButton",Frame163)
+	TextButton167["TextWrapped"] = true
+	TextButton167["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton167["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton167["Text"] = "Scripts"
+	TextButton167["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton167["Font"] = Enum.Font.Cartoon
+	TextButton167["Name"] = "Hub"
+	TextButton167["Position"] = UDim2.new(-0.000745773315, 0, 0.391164452, 0)
+	TextButton167["BackgroundTransparency"] = 1
+	TextButton167["Size"] = UDim2.new(0, 160, 0, 48)
+	TextButton167["TextSize"] = 20
+	TextButton167["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	----TextButton167----
+	--TextButton168--
+	local TextButton168 = Instance.new("TextButton",Frame163)
+	TextButton168["TextWrapped"] = true
+	TextButton168["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton168["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton168["Text"] = "Dahood Scripts"
+	TextButton168["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton168["Font"] = Enum.Font.Cartoon
+	TextButton168["Name"] = "Settings"
+	TextButton168["Position"] = UDim2.new(-0.00100631686, 0, 0.590303719, 0)
+	TextButton168["BackgroundTransparency"] = 1
+	TextButton168["Size"] = UDim2.new(0, 160, 0, 48)
+	TextButton168["TextSize"] = 20
+	TextButton168["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	----TextButton168----
+	--Frame169--
+	local Frame169 = Instance.new("Frame",Frame2)
+	Frame169["Size"] = UDim2.new(0, 525, 0, 6)
+	Frame169["Position"] = UDim2.new(0.237142771, 0, 0.0955555514, 0)
+	Frame169["Name"] = "Line"
+	Frame169["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	----Frame169----
+	--TextLabel170--
+	local TextLabel170 = Instance.new("TextLabel",Frame2)
+	TextLabel170["TextWrapped"] = true
+	TextLabel170["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel170["Text"] = "discord.gg/9pgKnAC8Bp"
+	TextLabel170["Font"] = Enum.Font.SourceSansBold
+	TextLabel170["BackgroundTransparency"] = 1
+	TextLabel170["Position"] = UDim2.new(0.240000084, 0, 0.00444444455, 0)
+	TextLabel170["Size"] = UDim2.new(0, 533, 0, 38)
+	TextLabel170["TextSize"] = 30
+	TextLabel170["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel170----
+	--Script171--
+	local Script171 = Instance.new("Script",ScreenGui1)
+	----Script171----
+	--Script172--
+	local Script172 = Instance.new("Script",ScreenGui1)
+	----Script172----
+	--TextButton173--
+	local TextButton173 = Instance.new("TextButton",ScreenGui1)
+	TextButton173["TextWrapped"] = true
+	TextButton173["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton173["Text"] = "Open/Close"
+	TextButton173["Font"] = Enum.Font.SourceSansBold
+	TextButton173["Name"] = "Open/Close"
+	TextButton173["Position"] = UDim2.new(0, -9, 0, 253)
+	TextButton173["Size"] = UDim2.new(0, 170, 0, 40)
+	TextButton173["TextSize"] = 23
+	TextButton173["BackgroundColor3"] = Color3.new(1, 0.439216, 0)
+	----TextButton173----
+	--Script174--
+	local Script174 = Instance.new("Script",TextButton173)
+	----Script174----
+	--UICorner175--
+	local UICorner175 = Instance.new("UICorner",TextButton173)
+	UICorner175["CornerRadius"] = UDim.new(0, 4)
+	----UICorner175----
+	spawn(function() --Source for Script3
+		local script = Script3
+		local Home = script.Parent.Pages.Home
+		local exe = script.Parent.Pages.Exe
+		local hub = script.Parent.Pages.Hub
+		local setting = script.Parent.Pages.Settings
+		local credits = script.Parent.Pages.Credits
+		
+		local home = script.Parent.Buttons.Home
+		local executor = script.Parent.Buttons.EXE
+		local scripthub = script.Parent.Buttons.Hub
+		local stngs = script.Parent.Buttons.Settings
+		local credit = script.Parent.Buttons.Credits
+		
+		
+		home.MouseButton1Click:Connect(function()
+			Home.Visible = true
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		executor.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = true
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		scripthub.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = true
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		stngs.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = true
+			credits.Visible = false
+		end)
+		
+		credit.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = true
+		end)
+		
+		
+		
+		
+		
+	end)
+	spawn(function() --Source for Script4
+		local script = Script4
+		local UIS = game:GetService("UserInputService")
+		function dragify(Frame)
+			dragToggle = nil
+			dragSpeed = 0.15
+			dragInput = nil
+			dragStart = nil
+			dragPos = nil
+			function updateInput(input)
+				Delta = input.Position - dragStart
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+				game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+			end
+			Frame.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+					dragToggle = true
+					dragStart = input.Position
+					startPos = Frame.Position
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							dragToggle = false
+						end
+					end)
+				end
+			end)
+			Frame.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					dragInput = input
+				end
+			end)
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if input == dragInput and dragToggle then
+					updateInput(input)
+				end
+			end)
+		end
+		dragify(script.Parent)
+		
+	end)
+	spawn(function() --Source for Script98
+		local script = Script98
+		local Players = game:GetService("Players")
+		local player = Players.LocalPlayer
+		local imagelabel = script.Parent
+		imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
+	end)
+	spawn(function() --Source for Script100
+		local script = Script100
+		local player = game.Players.LocalPlayer
+		
+		script.Parent.Text = player.Name
+	end)
+	spawn(function() --Source for Script106
+		local script = Script106
+		local frame = script.Parent.Parent.Parent.Parent.Parent.MainFrame
+		
+		script.Parent.MouseButton1Click:Connect(function()
+			frame:Destroy()
+		end)
+	end)
+	spawn(function() --Source for Script171
+		local script = Script171
+		local mainFrame = script.Parent.MainFrame
+		local open = script.Parent.Open
+		
+		if open.Visible == true and mainFrame.Visible == true then
+			open.Visible = false
+		else
+			open.Visible = true
+		end
+	end)
+	spawn(function() --Source for Script172
+		local script = Script172
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Nimbus Hub Loaded"; Text = "Please Join our discord serevr for Script updates!"; Icon = ""; })
+		
+	end)
+	spawn(function() --Source for Script174
+		local script = Script174
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent:WaitForChild("MainFrame").Visible = not script.Parent.Parent:WaitForChild("MainFrame").Visible
+		end)
+		
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
